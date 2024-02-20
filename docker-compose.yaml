@@ -21,6 +21,9 @@ services:
       context: node
       dockerfile: Dockerfile
     image: nodejs
+    volumes:
+      - ./node:/usr/src/app
+      - /usr/src/app/node_modules
     networks:
       - node-network
     tty: true
