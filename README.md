@@ -14,3 +14,7 @@ Gere o docker-compose de uma forma que basta apenas rodarmos: docker-compose up 
 Suba tudo em um repositório e faça a entrega.
 
 * A linguagem de programação para este desafio é Node/JavaScript.
+
+## Ao baixar repositório fazer o build: docker compose build --no-cache
+
+## Execultar: docker compose up -d
